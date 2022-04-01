@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Text, View, Dimensions, TextInput, TouchableOpacity } from 'react-native';
-import { Octicons, FontAwesome } from '@expo/vector-icons';
+import { Text, View, Dimensions, Image, TouchableOpacity } from 'react-native';
+import { Octicons } from '@expo/vector-icons';
 
 import styles from './css'
 
@@ -13,6 +13,7 @@ function DetailsScreen({ navigation, route }) {
 
     return (
         <View style={styles.container} >
+
                 <Text style={{
                     // marginBottom: 50,
                     fontSize: 20,

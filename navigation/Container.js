@@ -9,6 +9,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import LoginScreen from '../Screens/LoginScreen/LoginScreen';
 import TabContainer from './TabContainer'
 import DetailsScreen from '../Screens/DetailsScreen/DetailsScreen';
+import SignUpScreen from '../Screens/SignUpScreen/SignUpScreen';
 
 const WIDTH = Dimensions.get('screen').width;
 
@@ -55,6 +56,10 @@ export default function Container() {
                 />
 
                 <Stack.Screen name="Detail" component={DetailsScreen} />
+                
+                <Stack.Screen name="SignUp" component={SignUpScreen} 
+                options={{title : "Đăng Ký"}}
+                />
 
             </Stack.Navigator>
         </NavigationContainer>

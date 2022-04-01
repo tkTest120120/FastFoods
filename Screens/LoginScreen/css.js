@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
         width : 250,
         borderRadius : 20,
         paddingLeft : 20,
+        paddingRight : 40,
         paddingVertical : 4,
         marginBottom : 20
     },
@@ -27,6 +28,17 @@ const styles = StyleSheet.create({
     btn_text : {
         color : '#fff',
         textAlign : "center"
+    },
+
+    sign_up : {
+        flexDirection : "row",
+        marginTop : 30,
+    },
+
+    showPassWord: {
+        position: "absolute",
+        top: 7,
+        right: 12
     },
 
 });
